@@ -7,20 +7,27 @@
     <link rel="stylesheet" href="networks-and-server.css">
 </head>
 <body>
+    <div class="container">
     <header>
-        <h1>Networks and servers</h1>
+        <h1 class="heading">Networks and servers</h1>
     </header>
     <section>
-        <h2>Topics Covered</h2>
+        <div class="topics-covered-div">
+        <h2 class="topics-covered">Topics Covered</h2>
         <ul>
-            <li>Understanding Wi-Fi USB Dongles</li>
-            <li>Secure collaboration across the internet</li>
-            <li>Types and functions of networking and wireless connections</li>
-            <li>Description of the common functionality of server networks</li>
+            <li class="link"><a href="#understanding">Understanding Wi-Fi USB Dongles</a></li>
+            <li class="link"><a href="#secure">Secure collaboration across the internet</a></li>
+            <li class="link"><a href="#types">Types and functions of networking and wireless connections</a></li>
+            <li class="link"><a href="#description">Description of the common functionality of server networks</a></li>
         </ul>
+    </div>
     </section>
     <article>
-        <h2>Understanding Wi-Fi USB Dongles</h2>
+        <div class="paragraph-div">
+        <div class="subheading-div">
+         <img class="icon" src="/icons/router.png" alt="router" width="20" height="20">
+         <h2 id="understanding">Understanding Wi-Fi USB Dongles</h2>
+        </div>
         <p>
             3G routers allow you to connect a USB dongle to the router just lik how we connect 
             ethernet cable connection to router. The user can connect the USB dongle as internet
@@ -49,9 +56,14 @@
                 <li>Enter recquired field and set a password</li>
             </ul>
         </p>
+    </div>
         <br>
         <br>
-        <h2>Secure collaboration across the internet</h2>
+        <div class="paragraph-div">
+        <div class="subheading-div">
+                <img class="icon" src="/icons/secure.png" alt="sure" width="20" height="20">
+        <h2 id="secure">Secure collaboration across the internet</h2>
+        </div>
         <p>
             <b>What is identity theft?</b> <br>
             This is any kind of deception, scam, or crime that results inthe loss of personal data
@@ -73,7 +85,12 @@
                 <li>Only use reputable websites when making purchases.</li>
             </ol>
         </p>
-        <h2>Types and functions of networking and wireless connections</h2>
+    </div>
+    <div class="paragraph-div">
+        <div class="subheading-div">
+            <img class="icon" src="/icons/network.png" alt="router" width="20" height="20">
+        <h2 id="types">Types and functions of networking and wireless connections</h2>
+        </div>
         <h3>peer-to-peer networks and server networks</h3>
         <p>
             Peer to peer network and client-server network are the telecommunication networks 
@@ -104,10 +121,42 @@
            the computer is a client, a server, or acts like both of them.
         </p>
         <h3>Peer-to-peer</h3>
+        <p>
+            A peer-to-peer network is one that involves two or more than two computers that pool individual resources 
+        like the printers, DVD players, and disk drivers. These are the shared resources that are available in 
+        every computer in the network. Each of the computers will behave as the client as well as the server and 
+        it communicates with the other computers directly. In the peer-to-peer network like for example the printer of 
+        one of the computers can be used by any computer present in the particular network. It is 
+        inexpensive to set up a peer-to-peer network.
+        </p>
+    </div>
+    <div class="paragraph-div">
+        <div class="subheading-div">
+            <img class="icon" src="/icons/server.png" alt="router" width="20" height="20">
+        <h2 id="description">Description of the common functionality of server networks</h2>
+        </div>
+        <p>
+            A server network is a system in which multiple computers (clients) are connected to 
+            a central server or group of servers that manage resources and services. One common 
+            functionality of server networks is centralized data storage, where all files are 
+            stored on the server, making it easier to manage, back up, and secure data. Another 
+            key function is user authentication and access control, allowing administrators to 
+             user permissions and ensure that only authorized users access specific files or 
+             services. File sharing is made efficient through a server, enabling users to access 
+             and collaborate on shared documents and software.  
+             <br>
+            Server networks also provide printer and hardware sharing, reducing the need for 
+            every user to have their own device. Email hosting is often handled by servers, 
+            supporting internal and external communication within an organization. Web hosting 
+            database management are also commonly run through server networks, supporting 
+            company websites and applications. Remote access is another important feature, 
+            allowing users to log in and work from different locations securely. 
+        </p>
+    </div>
         <br>
         <br>
         <br>
-        <div>
+        <div class="audio-div">
             <p>Here is an audio version of the Article:</p>
             <audio controls>
                 <source src="networks-and-servers.mp3" type="audio/mpeg">
@@ -115,5 +164,7 @@
             </audio>
         </div>
     </article>
+    <footer></footer>
+</div>
 </body>
 </html>

@@ -1,0 +1,111 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    background-image: url(/images/body-background.png);
+
+
+}
+
+.container{
+    display: grid;
+    grid-template-areas: "header header"
+                         "section main"
+                         "footer footer";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto auto;
+}
+
+header{
+    grid-area: header;
+    background-image: linear-gradient(rgba(0, 64, 48, 0.4), rgba(255,249, 229, 0.4)),
+    url(/images/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px;
+    height: 150px;
+    font-size: xx-large;
+    
+}
+
+article{
+    grid-area: main;
+    text-align: center;
+}
+
+section{
+    grid-area: section;
+    background-color: rgb(74, 151, 130);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-bottom: 0;
+    height: fit-content;
+}
+
+
+.heading{
+    font-weight: bold;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    align-items: start;
+}
+
+li{
+    padding: 10px;
+    text-align: start;
+    padding-left: 0;
+
+}
+
+.link{
+    font-weight: bold;
+    
+}
+
+.topics-covered{
+   text-align: center; 
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+p{
+    text-align: left;
+    padding-left: 20px;
+}
+.subheading-div{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    color: rgb(37, 159, 222);
+    
+}
+
+.icon{
+    padding-top: 25px;
+}
+
+.paragraph-div{
+    color: azure;
+    background-color: rgba(94, 94, 94, 0.3);
+    border-radius: 10px;
+    margin: 30px;
+
+
+}
+
+.audio-div{
+    color: azure;
+    justify-content: center;
+    display: block;
+}
+
+.audio-div p{
+    align-self: center;
+}
+
